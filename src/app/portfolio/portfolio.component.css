@@ -1,0 +1,89 @@
+
+  .font-style{
+    font-size: 4.5rem;
+    color: #2c3e50;
+  }
+  .portfolio .portfolio-item {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    max-width: 25rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+  .portfolio .portfolio-item .portfolio-item-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.2s ease-in-out;
+    opacity: 0;
+    background-color: rgba(26, 188, 156, 0.9);
+  }
+  .portfolio .portfolio-item .portfolio-item-caption:hover {
+    opacity: 1;
+  }
+  .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+    font-size: 1.5rem;
+  }
+  
+ 
+
+
+  .portfolio-modal .portfolio-modal-title {
+    font-size: 2.25rem;
+    line-height: 2rem;
+  }
+  @media (min-width: 992px) {
+    .portfolio-modal .portfolio-modal-title {
+      font-size: 3rem;
+      line-height: 2.5rem;
+    }
+  }
+  .portfolio-modal .close {
+    position: absolute;
+    z-index: 1;
+    right: 1.5rem;
+    top: 1rem;
+    font-size: 3rem;
+    line-height: 3rem;
+    color: #1abc9c;
+    opacity: 1;
+  }
+  
+  .floating-label-form-group {
+    position: relative;
+    border-bottom: 1px solid #e9ecef;
+  }
+.p-a{
+  top: 0%;
+  bottom: -100%;
+  right: 0%;
+left: 0%;
+display: none;
+}
+
+  .p-aaa{
+    top: 10%;
+    right: 10%;
+    display: none;
+  }
+
+  .z-1{
+    z-index: 1;
+
+  }
+
+  .z-2{
+    z-index: 2;
+
+  }
+  .btn-primary{
+    background-color: var(--teal) !important;
+  }
+  button{
+    border: none !important;
+
+  }
+  .btn-primary:focus{
+    box-shadow: #1abc9c !important;
+  }

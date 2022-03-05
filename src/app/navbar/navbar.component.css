@@ -1,0 +1,11 @@
+.nav-styel{
+    background-color: var(--secondary);
+    padding: 10px;
+    font-weight: bold;
+}
+.nav-link:focus{
+    background-color: var(--teal);
+    border-radius: 5px;
+    color: white !important;
+
+}
